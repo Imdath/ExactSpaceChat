@@ -1,0 +1,96 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-container {
+  height: 80vh;
+  width: 40%;
+  background-color: #f1f1f1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  justify-content: space-around;
+}
+
+.line {
+  width: 90%;
+}
+
+.introduction-heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.introduction-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+}
+
+.people-count {
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+}
+
+.people-icon {
+  font-size: 22px;
+  color: #808080;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 38%;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.input-field {
+  width: 90%;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  border-style: none;
+  height: 40px;
+}
+
+.smiley-icon {
+  font-size: 20px;
+  color: #808080;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.people-online {
+  font-weight: bold;
+}
+
+.messages-container {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
